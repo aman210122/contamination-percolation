@@ -1,0 +1,49 @@
+# =====================================================================
+# ContamPerc Benchmark — Configuration
+# =====================================================================
+# Copy this file to config.yaml and fill in your API credentials.
+# Alternatively, set environment variables (see comments below).
+#
+# Usage:
+#   cp config.example.yaml config.yaml
+#   # Edit config.yaml with your credentials
+#   python run_experiments.py benchmark --provider openai --models gpt4o-mini --n-trials 100
+# =====================================================================
+
+# --- Databricks Model Serving (OAuth) ---
+# Env vars: DATABRICKS_HOST, DATABRICKS_CLIENT_ID, DATABRICKS_SECRET
+databricks:
+  host: "https://your-workspace.azuredatabricks.net"
+  client_id: "your-service-principal-client-id"
+  client_secret: "your-service-principal-secret"
+  endpoints:
+    dbrx: "databricks-dbrx-instruct"
+    claude: "databricks-claude-sonnet-4-6"
+    llama: "databricks-llama-4-maverick"
+
+# --- OpenAI API ---
+# Env var: OPENAI_API_KEY
+openai:
+  api_key: "sk-your-openai-api-key"
+  models:
+    gpt4o: "gpt-4o"
+    gpt4o-mini: "gpt-4o-mini"
+    gpt4-turbo: "gpt-4-turbo"
+    o1: "o1"
+
+# --- Anthropic API ---
+# Env var: ANTHROPIC_API_KEY
+anthropic:
+  api_key: "sk-ant-your-anthropic-api-key"
+  models:
+    claude-sonnet: "claude-sonnet-4-20250514"
+    claude-haiku: "claude-haiku-4-5-20251001"
+    claude-opus: "claude-opus-4-20250514"
+
+# --- Google AI Studio / Vertex ---
+# Env var: GOOGLE_API_KEY
+google:
+  api_key: "your-google-api-key"
+  models:
+    gemini-flash: "gemini-2.5-flash"
+    gemini-pro: "gemini-2.5-pro"

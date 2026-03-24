@@ -1,0 +1,32 @@
+# Credentials — NEVER commit these
+config.yaml
+.env
+*.secret
+*.key
+
+# Results (large JSON files)
+results_*/
+results_*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
