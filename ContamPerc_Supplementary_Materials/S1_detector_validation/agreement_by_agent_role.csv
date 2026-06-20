@@ -1,0 +1,12 @@
+Agent Role,count,agreements,agreement_rate
+diagnostic,5,5,1.0
+diagnostic_r0,11,8,0.7272727272727273
+diagnostic_r1,8,6,0.75
+pharmacy_r0,25,20,0.8
+pharmacy_r1,16,11,0.6875
+treatment,4,4,1.0
+treatment_r0,10,7,0.7
+treatment_r1,8,7,0.875
+triage,22,19,0.8636363636363636
+triage_r0,34,30,0.8823529411764706
+triage_r1,7,7,1.0

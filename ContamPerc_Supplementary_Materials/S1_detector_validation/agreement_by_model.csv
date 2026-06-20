@@ -1,0 +1,4 @@
+Model,count,agreements,agreement_rate
+claude,17,9,0.5294117647058824
+dbrx,65,50,0.7692307692307693
+llama,68,65,0.9558823529411765

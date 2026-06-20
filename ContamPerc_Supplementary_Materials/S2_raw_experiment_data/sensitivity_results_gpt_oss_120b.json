@@ -1,0 +1,92 @@
+[
+  {
+    "label": "baseline_t0.3",
+    "tau": 5000,
+    "temp": 0.3,
+    "n_trials": 100,
+    "canary_rate": 0.0,
+    "canary_ci": [
+      0.0,
+      0.03699480747600191
+    ],
+    "tier1_rate": 0.6,
+    "tier1_ci": [
+      0.5020007846184025,
+      0.6906002538863971
+    ],
+    "gap": 0.6,
+    "classification": "POSITIVE"
+  },
+  {
+    "label": "temp_0.0",
+    "tau": 5000,
+    "temp": 0.0,
+    "n_trials": 100,
+    "canary_rate": 0.0,
+    "canary_ci": [
+      0.0,
+      0.03699480747600191
+    ],
+    "tier1_rate": 0.59,
+    "tier1_ci": [
+      0.4920125056109662,
+      0.6813284290433533
+    ],
+    "gap": 0.59,
+    "classification": "POSITIVE"
+  },
+  {
+    "label": "temp_0.7",
+    "tau": 5000,
+    "temp": 0.7,
+    "n_trials": 100,
+    "canary_rate": 0.0,
+    "canary_ci": [
+      0.0,
+      0.03699480747600191
+    ],
+    "tier1_rate": 0.6,
+    "tier1_ci": [
+      0.5020007846184025,
+      0.6906002538863971
+    ],
+    "gap": 0.6,
+    "classification": "POSITIVE"
+  },
+  {
+    "label": "alt_prompts_t0.3",
+    "tau": 5000,
+    "temp": 0.3,
+    "n_trials": 100,
+    "canary_rate": 0.0,
+    "canary_ci": [
+      0.0,
+      0.03699480747600191
+    ],
+    "tier1_rate": 0.59,
+    "tier1_ci": [
+      0.4920125056109662,
+      0.6813284290433533
+    ],
+    "gap": 0.59,
+    "classification": "POSITIVE"
+  },
+  {
+    "label": "alt_prompts_t0.7",
+    "tau": 5000,
+    "temp": 0.7,
+    "n_trials": 100,
+    "canary_rate": 0.0,
+    "canary_ci": [
+      0.0,
+      0.03699480747600191
+    ],
+    "tier1_rate": 0.59,
+    "tier1_ci": [
+      0.4920125056109662,
+      0.6813284290433533
+    ],
+    "gap": 0.59,
+    "classification": "POSITIVE"
+  }
+]

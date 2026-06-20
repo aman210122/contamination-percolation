@@ -1,0 +1,92 @@
+[
+  {
+    "label": "baseline_t0.3",
+    "tau": 5000,
+    "temp": 0.3,
+    "n_trials": 100,
+    "canary_rate": 1.0,
+    "canary_ci": [
+      0.9630051925239981,
+      0.9999999999999999
+    ],
+    "tier1_rate": 0.8,
+    "tier1_ci": [
+      0.7111690380734977,
+      0.8666340774409013
+    ],
+    "gap": -0.19999999999999996,
+    "classification": "NEGATIVE"
+  },
+  {
+    "label": "temp_0.0",
+    "tau": 5000,
+    "temp": 0.0,
+    "n_trials": 100,
+    "canary_rate": 1.0,
+    "canary_ci": [
+      0.9630051925239981,
+      0.9999999999999999
+    ],
+    "tier1_rate": 0.8,
+    "tier1_ci": [
+      0.7111690380734977,
+      0.8666340774409013
+    ],
+    "gap": -0.19999999999999996,
+    "classification": "NEGATIVE"
+  },
+  {
+    "label": "temp_0.7",
+    "tau": 5000,
+    "temp": 0.7,
+    "n_trials": 100,
+    "canary_rate": 1.0,
+    "canary_ci": [
+      0.9630051925239981,
+      0.9999999999999999
+    ],
+    "tier1_rate": 0.81,
+    "tier1_ci": [
+      0.7222097592919214,
+      0.8748534600729574
+    ],
+    "gap": -0.18999999999999995,
+    "classification": "NEGATIVE"
+  },
+  {
+    "label": "alt_prompts_t0.3",
+    "tau": 5000,
+    "temp": 0.3,
+    "n_trials": 100,
+    "canary_rate": 1.0,
+    "canary_ci": [
+      0.9630051925239981,
+      0.9999999999999999
+    ],
+    "tier1_rate": 0.76,
+    "tier1_ci": [
+      0.6676748127670786,
+      0.8330878873454004
+    ],
+    "gap": -0.24,
+    "classification": "NEGATIVE"
+  },
+  {
+    "label": "alt_prompts_t0.7",
+    "tau": 5000,
+    "temp": 0.7,
+    "n_trials": 100,
+    "canary_rate": 1.0,
+    "canary_ci": [
+      0.9630051925239981,
+      0.9999999999999999
+    ],
+    "tier1_rate": 0.78,
+    "tier1_ci": [
+      0.6892946528499969,
+      0.849988254963442
+    ],
+    "gap": -0.21999999999999997,
+    "classification": "NEGATIVE"
+  }
+]
